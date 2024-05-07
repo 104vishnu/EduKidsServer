@@ -136,7 +136,7 @@ const connect = async () => {
   }
 };
 
-app.use(cors({ origin: "https://edu-kids-6xrv.vercel.app", credentials: true }));
+app.use(cors({ origin: "https://edu-kids.vercel.app/", credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
 
